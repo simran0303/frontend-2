@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Application</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="title">Student Management CURD</div>
+        <form action="" id="student-form">
+            <div class="user-details">
+                <div class="input-field">
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="input-field" >
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div class="input-field" >
+                    <input type="number" id="gpa" placeholder="GPA">
+                </div>
+                <div class="input-field" >
+                    <input type="number" id="age" placeholder="Age">
+                </div>
+                <div class="input-field" >
+                    <input type="text" id="degree" placeholder="Degree">
+                </div>
+            </div>
+            <div class="add" id="add_btn" >
+                <button>Add Student</button>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="Search by Name, Email or Degree">
+            </div>
+        </form>
+
+        <table class="table" id="crudTable">
+            <thead>
+                <tr>
+                   <!--<th>Id</th>-->
+                    <th>Student Name</th>
+                    <th>Email</th>
+                    <th>GPA</th>
+                    <th>age</th>
+                    <th>Degree</th>
+                </tr>
+            </thead>
+            <tbody id="student-list">
+                
+            </tbody>
+             
+        </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

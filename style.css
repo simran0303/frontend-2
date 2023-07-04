@@ -1,0 +1,62 @@
+*{
+    margin: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+    background-color: black ;
+    color: white;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    margin-left: -5px;
+}
+
+.input-field input{
+    border: outset;
+    font-size: 35px;
+    height: 45px;
+}
+
+.container .title{
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+
+#search input{
+    width: 100%;
+    border: outset;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.add button{
+    width: 40%;
+    background-color: white;
+    color: black;
+    height: 45px;
+    font-size: 20px;
+}
+
+
+
+table, th, td{
+    border: 2px solid white;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+th, td{
+    padding:10px;
+    text-align-last: left;
+}
+
+
+
